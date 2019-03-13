@@ -1,0 +1,27 @@
+|CPU_3_8_decoder
+a[0] => c3.IN0
+a[0] => c1.IN0
+a[0] => c2.IN0
+a[0] => c0.IN0
+a[1] => c3.IN1
+a[1] => c2.IN1
+a[1] => c1.IN1
+a[1] => c0.IN1
+a[2] => d~7.IN0
+a[2] => d~6.IN0
+a[2] => d~5.IN0
+a[2] => d~4.IN0
+a[2] => d~3.IN0
+a[2] => d~2.IN0
+a[2] => d~1.IN0
+a[2] => d~0.IN0
+d[0] <= d~0.DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= d~1.DB_MAX_OUTPUT_PORT_TYPE
+d[2] <= d~2.DB_MAX_OUTPUT_PORT_TYPE
+d[3] <= d~3.DB_MAX_OUTPUT_PORT_TYPE
+d[4] <= d~4.DB_MAX_OUTPUT_PORT_TYPE
+d[5] <= d~5.DB_MAX_OUTPUT_PORT_TYPE
+d[6] <= d~6.DB_MAX_OUTPUT_PORT_TYPE
+d[7] <= d~7.DB_MAX_OUTPUT_PORT_TYPE
+
+

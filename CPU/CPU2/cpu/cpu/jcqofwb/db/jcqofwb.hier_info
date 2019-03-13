@@ -1,0 +1,27 @@
+|jcqofwb
+clk => mar_out[7]~reg0.CLK
+clk => mar_out[6]~reg0.CLK
+clk => mar_out[5]~reg0.CLK
+clk => mar_out[4]~reg0.CLK
+clk => mar_out[3]~reg0.CLK
+clk => mar_out[2]~reg0.CLK
+clk => mar_out[1]~reg0.CLK
+clk => mar_out[0]~reg0.CLK
+mar_in[0] => mar_out[0]~reg0.DATAIN
+mar_in[1] => mar_out[1]~reg0.DATAIN
+mar_in[2] => mar_out[2]~reg0.DATAIN
+mar_in[3] => mar_out[3]~reg0.DATAIN
+mar_in[4] => mar_out[4]~reg0.DATAIN
+mar_in[5] => mar_out[5]~reg0.DATAIN
+mar_in[6] => mar_out[6]~reg0.DATAIN
+mar_in[7] => mar_out[7]~reg0.DATAIN
+mar_out[0] <= mar_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[1] <= mar_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[2] <= mar_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[3] <= mar_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[4] <= mar_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[5] <= mar_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[6] <= mar_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mar_out[7] <= mar_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

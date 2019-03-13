@@ -1,0 +1,422 @@
+Simulator report for jicunqizu
+Wed Jan 03 21:01:17 2018
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 164 nodes    ;
+; Simulation Coverage         ;      30.49 % ;
+; Total Number of Transitions ; 369          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                         ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
+; Option                                                                                     ; Setting       ; Default Value ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
+; Simulation mode                                                                            ; Functional    ; Timing        ;
+; Start time                                                                                 ; 0 ns          ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF          ;               ;
+; Vector input source                                                                        ; jicunqizu.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On            ; On            ;
+; Check outputs                                                                              ; Off           ; Off           ;
+; Report simulation coverage                                                                 ; On            ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On            ; On            ;
+; Display missing 1-value coverage report                                                    ; On            ; On            ;
+; Display missing 0-value coverage report                                                    ; On            ; On            ;
+; Detect setup and hold time violations                                                      ; Off           ; Off           ;
+; Detect glitches                                                                            ; Off           ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off           ; Off           ;
+; Generate Signal Activity File                                                              ; Off           ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off           ; Off           ;
+; Group bus channels in simulation results                                                   ; Off           ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On            ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE    ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off           ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off           ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto          ; Auto          ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      30.49 % ;
+; Total nodes checked                                 ; 164          ;
+; Total output ports checked                          ; 164          ;
+; Total output ports with complete 1/0-value coverage ; 50           ;
+; Total output ports with no 1/0-value coverage       ; 97           ;
+; Total output ports with no 1-value coverage         ; 113          ;
+; Total output ports with no 0-value coverage         ; 98           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                        ;
++------------------------+------------------------+------------------+
+; Node Name              ; Output Port Name       ; Output Port Type ;
++------------------------+------------------------+------------------+
+; |JICUNQIZU|process_0~1 ; |JICUNQIZU|process_0~1 ; out0             ;
+; |JICUNQIZU|process_0~2 ; |JICUNQIZU|process_0~2 ; out0             ;
+; |JICUNQIZU|B~24        ; |JICUNQIZU|B~24        ; out              ;
+; |JICUNQIZU|B~26        ; |JICUNQIZU|B~26        ; out              ;
+; |JICUNQIZU|B~28        ; |JICUNQIZU|B~28        ; out              ;
+; |JICUNQIZU|B~29        ; |JICUNQIZU|B~29        ; out              ;
+; |JICUNQIZU|process_0~4 ; |JICUNQIZU|process_0~4 ; out0             ;
+; |JICUNQIZU|process_0~5 ; |JICUNQIZU|process_0~5 ; out0             ;
+; |JICUNQIZU|process_0~6 ; |JICUNQIZU|process_0~6 ; out0             ;
+; |JICUNQIZU|process_0~7 ; |JICUNQIZU|process_0~7 ; out0             ;
+; |JICUNQIZU|A~5         ; |JICUNQIZU|A~5         ; out              ;
+; |JICUNQIZU|A~6         ; |JICUNQIZU|A~6         ; out              ;
+; |JICUNQIZU|A~7         ; |JICUNQIZU|A~7         ; out              ;
+; |JICUNQIZU|A~13        ; |JICUNQIZU|A~13        ; out              ;
+; |JICUNQIZU|A~14        ; |JICUNQIZU|A~14        ; out              ;
+; |JICUNQIZU|A~15        ; |JICUNQIZU|A~15        ; out              ;
+; |JICUNQIZU|A~21        ; |JICUNQIZU|A~21        ; out              ;
+; |JICUNQIZU|A~22        ; |JICUNQIZU|A~22        ; out              ;
+; |JICUNQIZU|A~23        ; |JICUNQIZU|A~23        ; out              ;
+; |JICUNQIZU|A~24        ; |JICUNQIZU|A~24        ; out              ;
+; |JICUNQIZU|A~26        ; |JICUNQIZU|A~26        ; out              ;
+; |JICUNQIZU|A~28        ; |JICUNQIZU|A~28        ; out              ;
+; |JICUNQIZU|A~29        ; |JICUNQIZU|A~29        ; out              ;
+; |JICUNQIZU|A~30        ; |JICUNQIZU|A~30        ; out              ;
+; |JICUNQIZU|A~31        ; |JICUNQIZU|A~31        ; out              ;
+; |JICUNQIZU|process_0~8 ; |JICUNQIZU|process_0~8 ; out0             ;
+; |JICUNQIZU|process_0~9 ; |JICUNQIZU|process_0~9 ; out0             ;
+; |JICUNQIZU|ra[2]       ; |JICUNQIZU|ra[2]       ; regout           ;
+; |JICUNQIZU|ra[3]       ; |JICUNQIZU|ra[3]       ; regout           ;
+; |JICUNQIZU|ra[5]       ; |JICUNQIZU|ra[5]       ; regout           ;
+; |JICUNQIZU|ra[7]       ; |JICUNQIZU|ra[7]       ; regout           ;
+; |JICUNQIZU|clk         ; |JICUNQIZU|clk         ; out              ;
+; |JICUNQIZU|we          ; |JICUNQIZU|we          ; out              ;
+; |JICUNQIZU|RAA0        ; |JICUNQIZU|RAA0        ; out              ;
+; |JICUNQIZU|RAA1        ; |JICUNQIZU|RAA1        ; out              ;
+; |JICUNQIZU|RWBA0       ; |JICUNQIZU|RWBA0       ; out              ;
+; |JICUNQIZU|BUS0[2]     ; |JICUNQIZU|BUS0[2]     ; out              ;
+; |JICUNQIZU|BUS0[3]     ; |JICUNQIZU|BUS0[3]     ; out              ;
+; |JICUNQIZU|BUS0[5]     ; |JICUNQIZU|BUS0[5]     ; out              ;
+; |JICUNQIZU|BUS0[7]     ; |JICUNQIZU|BUS0[7]     ; out              ;
+; |JICUNQIZU|A[0]        ; |JICUNQIZU|A[0]        ; pin_out          ;
+; |JICUNQIZU|A[1]        ; |JICUNQIZU|A[1]        ; pin_out          ;
+; |JICUNQIZU|A[2]        ; |JICUNQIZU|A[2]        ; pin_out          ;
+; |JICUNQIZU|A[3]        ; |JICUNQIZU|A[3]        ; pin_out          ;
+; |JICUNQIZU|A[5]        ; |JICUNQIZU|A[5]        ; pin_out          ;
+; |JICUNQIZU|A[7]        ; |JICUNQIZU|A[7]        ; pin_out          ;
+; |JICUNQIZU|B[2]        ; |JICUNQIZU|B[2]        ; pin_out          ;
+; |JICUNQIZU|B[3]        ; |JICUNQIZU|B[3]        ; pin_out          ;
+; |JICUNQIZU|B[5]        ; |JICUNQIZU|B[5]        ; pin_out          ;
+; |JICUNQIZU|B[7]        ; |JICUNQIZU|B[7]        ; pin_out          ;
++------------------------+------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------+
+; Missing 1-Value Coverage                                             ;
++-------------------------+-------------------------+------------------+
+; Node Name               ; Output Port Name        ; Output Port Type ;
++-------------------------+-------------------------+------------------+
+; |JICUNQIZU|process_0~3  ; |JICUNQIZU|process_0~3  ; out0             ;
+; |JICUNQIZU|B~0          ; |JICUNQIZU|B~0          ; out              ;
+; |JICUNQIZU|B~1          ; |JICUNQIZU|B~1          ; out              ;
+; |JICUNQIZU|B~2          ; |JICUNQIZU|B~2          ; out              ;
+; |JICUNQIZU|B~3          ; |JICUNQIZU|B~3          ; out              ;
+; |JICUNQIZU|B~4          ; |JICUNQIZU|B~4          ; out              ;
+; |JICUNQIZU|B~5          ; |JICUNQIZU|B~5          ; out              ;
+; |JICUNQIZU|B~6          ; |JICUNQIZU|B~6          ; out              ;
+; |JICUNQIZU|B~7          ; |JICUNQIZU|B~7          ; out              ;
+; |JICUNQIZU|B~8          ; |JICUNQIZU|B~8          ; out              ;
+; |JICUNQIZU|B~9          ; |JICUNQIZU|B~9          ; out              ;
+; |JICUNQIZU|B~10         ; |JICUNQIZU|B~10         ; out              ;
+; |JICUNQIZU|B~11         ; |JICUNQIZU|B~11         ; out              ;
+; |JICUNQIZU|B~12         ; |JICUNQIZU|B~12         ; out              ;
+; |JICUNQIZU|B~13         ; |JICUNQIZU|B~13         ; out              ;
+; |JICUNQIZU|B~14         ; |JICUNQIZU|B~14         ; out              ;
+; |JICUNQIZU|B~15         ; |JICUNQIZU|B~15         ; out              ;
+; |JICUNQIZU|B~16         ; |JICUNQIZU|B~16         ; out              ;
+; |JICUNQIZU|B~17         ; |JICUNQIZU|B~17         ; out              ;
+; |JICUNQIZU|B~18         ; |JICUNQIZU|B~18         ; out              ;
+; |JICUNQIZU|B~19         ; |JICUNQIZU|B~19         ; out              ;
+; |JICUNQIZU|B~20         ; |JICUNQIZU|B~20         ; out              ;
+; |JICUNQIZU|B~21         ; |JICUNQIZU|B~21         ; out              ;
+; |JICUNQIZU|B~22         ; |JICUNQIZU|B~22         ; out              ;
+; |JICUNQIZU|B~23         ; |JICUNQIZU|B~23         ; out              ;
+; |JICUNQIZU|B~25         ; |JICUNQIZU|B~25         ; out              ;
+; |JICUNQIZU|B~27         ; |JICUNQIZU|B~27         ; out              ;
+; |JICUNQIZU|B~30         ; |JICUNQIZU|B~30         ; out              ;
+; |JICUNQIZU|B~31         ; |JICUNQIZU|B~31         ; out              ;
+; |JICUNQIZU|A~0          ; |JICUNQIZU|A~0          ; out              ;
+; |JICUNQIZU|A~1          ; |JICUNQIZU|A~1          ; out              ;
+; |JICUNQIZU|A~2          ; |JICUNQIZU|A~2          ; out              ;
+; |JICUNQIZU|A~3          ; |JICUNQIZU|A~3          ; out              ;
+; |JICUNQIZU|A~4          ; |JICUNQIZU|A~4          ; out              ;
+; |JICUNQIZU|A~8          ; |JICUNQIZU|A~8          ; out              ;
+; |JICUNQIZU|A~9          ; |JICUNQIZU|A~9          ; out              ;
+; |JICUNQIZU|A~10         ; |JICUNQIZU|A~10         ; out              ;
+; |JICUNQIZU|A~11         ; |JICUNQIZU|A~11         ; out              ;
+; |JICUNQIZU|A~12         ; |JICUNQIZU|A~12         ; out              ;
+; |JICUNQIZU|A~16         ; |JICUNQIZU|A~16         ; out              ;
+; |JICUNQIZU|A~17         ; |JICUNQIZU|A~17         ; out              ;
+; |JICUNQIZU|A~18         ; |JICUNQIZU|A~18         ; out              ;
+; |JICUNQIZU|A~19         ; |JICUNQIZU|A~19         ; out              ;
+; |JICUNQIZU|A~20         ; |JICUNQIZU|A~20         ; out              ;
+; |JICUNQIZU|A~25         ; |JICUNQIZU|A~25         ; out              ;
+; |JICUNQIZU|A~27         ; |JICUNQIZU|A~27         ; out              ;
+; |JICUNQIZU|process_0~10 ; |JICUNQIZU|process_0~10 ; out0             ;
+; |JICUNQIZU|process_0~11 ; |JICUNQIZU|process_0~11 ; out0             ;
+; |JICUNQIZU|process_0~12 ; |JICUNQIZU|process_0~12 ; out0             ;
+; |JICUNQIZU|process_0~13 ; |JICUNQIZU|process_0~13 ; out0             ;
+; |JICUNQIZU|rb~0         ; |JICUNQIZU|rb~0         ; out              ;
+; |JICUNQIZU|rb~1         ; |JICUNQIZU|rb~1         ; out              ;
+; |JICUNQIZU|rb~2         ; |JICUNQIZU|rb~2         ; out              ;
+; |JICUNQIZU|rb~3         ; |JICUNQIZU|rb~3         ; out              ;
+; |JICUNQIZU|rb~4         ; |JICUNQIZU|rb~4         ; out              ;
+; |JICUNQIZU|rb~5         ; |JICUNQIZU|rb~5         ; out              ;
+; |JICUNQIZU|rb~6         ; |JICUNQIZU|rb~6         ; out              ;
+; |JICUNQIZU|rb~7         ; |JICUNQIZU|rb~7         ; out              ;
+; |JICUNQIZU|rc~0         ; |JICUNQIZU|rc~0         ; out              ;
+; |JICUNQIZU|rc~1         ; |JICUNQIZU|rc~1         ; out              ;
+; |JICUNQIZU|rc~2         ; |JICUNQIZU|rc~2         ; out              ;
+; |JICUNQIZU|rc~3         ; |JICUNQIZU|rc~3         ; out              ;
+; |JICUNQIZU|rc~4         ; |JICUNQIZU|rc~4         ; out              ;
+; |JICUNQIZU|rc~5         ; |JICUNQIZU|rc~5         ; out              ;
+; |JICUNQIZU|rc~6         ; |JICUNQIZU|rc~6         ; out              ;
+; |JICUNQIZU|rc~7         ; |JICUNQIZU|rc~7         ; out              ;
+; |JICUNQIZU|rc~8         ; |JICUNQIZU|rc~8         ; out              ;
+; |JICUNQIZU|rc~9         ; |JICUNQIZU|rc~9         ; out              ;
+; |JICUNQIZU|rc~10        ; |JICUNQIZU|rc~10        ; out              ;
+; |JICUNQIZU|rc~11        ; |JICUNQIZU|rc~11        ; out              ;
+; |JICUNQIZU|rc~12        ; |JICUNQIZU|rc~12        ; out              ;
+; |JICUNQIZU|rc~13        ; |JICUNQIZU|rc~13        ; out              ;
+; |JICUNQIZU|rc~14        ; |JICUNQIZU|rc~14        ; out              ;
+; |JICUNQIZU|rc~15        ; |JICUNQIZU|rc~15        ; out              ;
+; |JICUNQIZU|rc~16        ; |JICUNQIZU|rc~16        ; out              ;
+; |JICUNQIZU|rc~17        ; |JICUNQIZU|rc~17        ; out              ;
+; |JICUNQIZU|rc~18        ; |JICUNQIZU|rc~18        ; out              ;
+; |JICUNQIZU|rc~19        ; |JICUNQIZU|rc~19        ; out              ;
+; |JICUNQIZU|rc~20        ; |JICUNQIZU|rc~20        ; out              ;
+; |JICUNQIZU|rc~21        ; |JICUNQIZU|rc~21        ; out              ;
+; |JICUNQIZU|rc~22        ; |JICUNQIZU|rc~22        ; out              ;
+; |JICUNQIZU|rc~23        ; |JICUNQIZU|rc~23        ; out              ;
+; |JICUNQIZU|rc[0]        ; |JICUNQIZU|rc[0]        ; regout           ;
+; |JICUNQIZU|rc[1]        ; |JICUNQIZU|rc[1]        ; regout           ;
+; |JICUNQIZU|rc[2]        ; |JICUNQIZU|rc[2]        ; regout           ;
+; |JICUNQIZU|rc[3]        ; |JICUNQIZU|rc[3]        ; regout           ;
+; |JICUNQIZU|rc[4]        ; |JICUNQIZU|rc[4]        ; regout           ;
+; |JICUNQIZU|rc[5]        ; |JICUNQIZU|rc[5]        ; regout           ;
+; |JICUNQIZU|rc[6]        ; |JICUNQIZU|rc[6]        ; regout           ;
+; |JICUNQIZU|rc[7]        ; |JICUNQIZU|rc[7]        ; regout           ;
+; |JICUNQIZU|rb[0]        ; |JICUNQIZU|rb[0]        ; regout           ;
+; |JICUNQIZU|rb[1]        ; |JICUNQIZU|rb[1]        ; regout           ;
+; |JICUNQIZU|rb[2]        ; |JICUNQIZU|rb[2]        ; regout           ;
+; |JICUNQIZU|rb[3]        ; |JICUNQIZU|rb[3]        ; regout           ;
+; |JICUNQIZU|rb[4]        ; |JICUNQIZU|rb[4]        ; regout           ;
+; |JICUNQIZU|rb[5]        ; |JICUNQIZU|rb[5]        ; regout           ;
+; |JICUNQIZU|rb[6]        ; |JICUNQIZU|rb[6]        ; regout           ;
+; |JICUNQIZU|rb[7]        ; |JICUNQIZU|rb[7]        ; regout           ;
+; |JICUNQIZU|ra[0]        ; |JICUNQIZU|ra[0]        ; regout           ;
+; |JICUNQIZU|ra[1]        ; |JICUNQIZU|ra[1]        ; regout           ;
+; |JICUNQIZU|ra[4]        ; |JICUNQIZU|ra[4]        ; regout           ;
+; |JICUNQIZU|ra[6]        ; |JICUNQIZU|ra[6]        ; regout           ;
+; |JICUNQIZU|RWBA1        ; |JICUNQIZU|RWBA1        ; out              ;
+; |JICUNQIZU|BUS0[0]      ; |JICUNQIZU|BUS0[0]      ; out              ;
+; |JICUNQIZU|BUS0[1]      ; |JICUNQIZU|BUS0[1]      ; out              ;
+; |JICUNQIZU|BUS0[4]      ; |JICUNQIZU|BUS0[4]      ; out              ;
+; |JICUNQIZU|BUS0[6]      ; |JICUNQIZU|BUS0[6]      ; out              ;
+; |JICUNQIZU|A[4]         ; |JICUNQIZU|A[4]         ; pin_out          ;
+; |JICUNQIZU|A[6]         ; |JICUNQIZU|A[6]         ; pin_out          ;
+; |JICUNQIZU|B[0]         ; |JICUNQIZU|B[0]         ; pin_out          ;
+; |JICUNQIZU|B[1]         ; |JICUNQIZU|B[1]         ; pin_out          ;
+; |JICUNQIZU|B[4]         ; |JICUNQIZU|B[4]         ; pin_out          ;
+; |JICUNQIZU|B[6]         ; |JICUNQIZU|B[6]         ; pin_out          ;
++-------------------------+-------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------+
+; Missing 0-Value Coverage                                             ;
++-------------------------+-------------------------+------------------+
+; Node Name               ; Output Port Name        ; Output Port Type ;
++-------------------------+-------------------------+------------------+
+; |JICUNQIZU|process_0~0  ; |JICUNQIZU|process_0~0  ; out0             ;
+; |JICUNQIZU|B~0          ; |JICUNQIZU|B~0          ; out              ;
+; |JICUNQIZU|B~1          ; |JICUNQIZU|B~1          ; out              ;
+; |JICUNQIZU|B~2          ; |JICUNQIZU|B~2          ; out              ;
+; |JICUNQIZU|B~3          ; |JICUNQIZU|B~3          ; out              ;
+; |JICUNQIZU|B~4          ; |JICUNQIZU|B~4          ; out              ;
+; |JICUNQIZU|B~8          ; |JICUNQIZU|B~8          ; out              ;
+; |JICUNQIZU|B~9          ; |JICUNQIZU|B~9          ; out              ;
+; |JICUNQIZU|B~10         ; |JICUNQIZU|B~10         ; out              ;
+; |JICUNQIZU|B~11         ; |JICUNQIZU|B~11         ; out              ;
+; |JICUNQIZU|B~12         ; |JICUNQIZU|B~12         ; out              ;
+; |JICUNQIZU|B~16         ; |JICUNQIZU|B~16         ; out              ;
+; |JICUNQIZU|B~17         ; |JICUNQIZU|B~17         ; out              ;
+; |JICUNQIZU|B~18         ; |JICUNQIZU|B~18         ; out              ;
+; |JICUNQIZU|B~19         ; |JICUNQIZU|B~19         ; out              ;
+; |JICUNQIZU|B~20         ; |JICUNQIZU|B~20         ; out              ;
+; |JICUNQIZU|B~25         ; |JICUNQIZU|B~25         ; out              ;
+; |JICUNQIZU|B~27         ; |JICUNQIZU|B~27         ; out              ;
+; |JICUNQIZU|A~0          ; |JICUNQIZU|A~0          ; out              ;
+; |JICUNQIZU|A~1          ; |JICUNQIZU|A~1          ; out              ;
+; |JICUNQIZU|A~2          ; |JICUNQIZU|A~2          ; out              ;
+; |JICUNQIZU|A~3          ; |JICUNQIZU|A~3          ; out              ;
+; |JICUNQIZU|A~4          ; |JICUNQIZU|A~4          ; out              ;
+; |JICUNQIZU|A~8          ; |JICUNQIZU|A~8          ; out              ;
+; |JICUNQIZU|A~9          ; |JICUNQIZU|A~9          ; out              ;
+; |JICUNQIZU|A~10         ; |JICUNQIZU|A~10         ; out              ;
+; |JICUNQIZU|A~11         ; |JICUNQIZU|A~11         ; out              ;
+; |JICUNQIZU|A~12         ; |JICUNQIZU|A~12         ; out              ;
+; |JICUNQIZU|A~16         ; |JICUNQIZU|A~16         ; out              ;
+; |JICUNQIZU|A~17         ; |JICUNQIZU|A~17         ; out              ;
+; |JICUNQIZU|A~18         ; |JICUNQIZU|A~18         ; out              ;
+; |JICUNQIZU|A~19         ; |JICUNQIZU|A~19         ; out              ;
+; |JICUNQIZU|A~20         ; |JICUNQIZU|A~20         ; out              ;
+; |JICUNQIZU|A~25         ; |JICUNQIZU|A~25         ; out              ;
+; |JICUNQIZU|A~27         ; |JICUNQIZU|A~27         ; out              ;
+; |JICUNQIZU|process_0~10 ; |JICUNQIZU|process_0~10 ; out0             ;
+; |JICUNQIZU|process_0~11 ; |JICUNQIZU|process_0~11 ; out0             ;
+; |JICUNQIZU|process_0~12 ; |JICUNQIZU|process_0~12 ; out0             ;
+; |JICUNQIZU|process_0~13 ; |JICUNQIZU|process_0~13 ; out0             ;
+; |JICUNQIZU|rb~0         ; |JICUNQIZU|rb~0         ; out              ;
+; |JICUNQIZU|rb~1         ; |JICUNQIZU|rb~1         ; out              ;
+; |JICUNQIZU|rb~2         ; |JICUNQIZU|rb~2         ; out              ;
+; |JICUNQIZU|rb~3         ; |JICUNQIZU|rb~3         ; out              ;
+; |JICUNQIZU|rb~4         ; |JICUNQIZU|rb~4         ; out              ;
+; |JICUNQIZU|rb~5         ; |JICUNQIZU|rb~5         ; out              ;
+; |JICUNQIZU|rb~6         ; |JICUNQIZU|rb~6         ; out              ;
+; |JICUNQIZU|rb~7         ; |JICUNQIZU|rb~7         ; out              ;
+; |JICUNQIZU|rc~0         ; |JICUNQIZU|rc~0         ; out              ;
+; |JICUNQIZU|rc~1         ; |JICUNQIZU|rc~1         ; out              ;
+; |JICUNQIZU|rc~2         ; |JICUNQIZU|rc~2         ; out              ;
+; |JICUNQIZU|rc~3         ; |JICUNQIZU|rc~3         ; out              ;
+; |JICUNQIZU|rc~4         ; |JICUNQIZU|rc~4         ; out              ;
+; |JICUNQIZU|rc~5         ; |JICUNQIZU|rc~5         ; out              ;
+; |JICUNQIZU|rc~6         ; |JICUNQIZU|rc~6         ; out              ;
+; |JICUNQIZU|rc~7         ; |JICUNQIZU|rc~7         ; out              ;
+; |JICUNQIZU|rc~8         ; |JICUNQIZU|rc~8         ; out              ;
+; |JICUNQIZU|rc~9         ; |JICUNQIZU|rc~9         ; out              ;
+; |JICUNQIZU|rc~10        ; |JICUNQIZU|rc~10        ; out              ;
+; |JICUNQIZU|rc~11        ; |JICUNQIZU|rc~11        ; out              ;
+; |JICUNQIZU|rc~12        ; |JICUNQIZU|rc~12        ; out              ;
+; |JICUNQIZU|rc~13        ; |JICUNQIZU|rc~13        ; out              ;
+; |JICUNQIZU|rc~14        ; |JICUNQIZU|rc~14        ; out              ;
+; |JICUNQIZU|rc~15        ; |JICUNQIZU|rc~15        ; out              ;
+; |JICUNQIZU|rc~16        ; |JICUNQIZU|rc~16        ; out              ;
+; |JICUNQIZU|rc~17        ; |JICUNQIZU|rc~17        ; out              ;
+; |JICUNQIZU|rc~18        ; |JICUNQIZU|rc~18        ; out              ;
+; |JICUNQIZU|rc~19        ; |JICUNQIZU|rc~19        ; out              ;
+; |JICUNQIZU|rc~20        ; |JICUNQIZU|rc~20        ; out              ;
+; |JICUNQIZU|rc~21        ; |JICUNQIZU|rc~21        ; out              ;
+; |JICUNQIZU|rc~22        ; |JICUNQIZU|rc~22        ; out              ;
+; |JICUNQIZU|rc~23        ; |JICUNQIZU|rc~23        ; out              ;
+; |JICUNQIZU|rc[0]        ; |JICUNQIZU|rc[0]        ; regout           ;
+; |JICUNQIZU|rc[1]        ; |JICUNQIZU|rc[1]        ; regout           ;
+; |JICUNQIZU|rc[2]        ; |JICUNQIZU|rc[2]        ; regout           ;
+; |JICUNQIZU|rc[3]        ; |JICUNQIZU|rc[3]        ; regout           ;
+; |JICUNQIZU|rc[4]        ; |JICUNQIZU|rc[4]        ; regout           ;
+; |JICUNQIZU|rc[5]        ; |JICUNQIZU|rc[5]        ; regout           ;
+; |JICUNQIZU|rc[6]        ; |JICUNQIZU|rc[6]        ; regout           ;
+; |JICUNQIZU|rc[7]        ; |JICUNQIZU|rc[7]        ; regout           ;
+; |JICUNQIZU|rb[0]        ; |JICUNQIZU|rb[0]        ; regout           ;
+; |JICUNQIZU|rb[1]        ; |JICUNQIZU|rb[1]        ; regout           ;
+; |JICUNQIZU|rb[2]        ; |JICUNQIZU|rb[2]        ; regout           ;
+; |JICUNQIZU|rb[3]        ; |JICUNQIZU|rb[3]        ; regout           ;
+; |JICUNQIZU|rb[4]        ; |JICUNQIZU|rb[4]        ; regout           ;
+; |JICUNQIZU|rb[5]        ; |JICUNQIZU|rb[5]        ; regout           ;
+; |JICUNQIZU|rb[6]        ; |JICUNQIZU|rb[6]        ; regout           ;
+; |JICUNQIZU|rb[7]        ; |JICUNQIZU|rb[7]        ; regout           ;
+; |JICUNQIZU|ra[1]        ; |JICUNQIZU|ra[1]        ; regout           ;
+; |JICUNQIZU|ra[4]        ; |JICUNQIZU|ra[4]        ; regout           ;
+; |JICUNQIZU|ra[6]        ; |JICUNQIZU|ra[6]        ; regout           ;
+; |JICUNQIZU|BUS0[0]      ; |JICUNQIZU|BUS0[0]      ; out              ;
+; |JICUNQIZU|BUS0[1]      ; |JICUNQIZU|BUS0[1]      ; out              ;
+; |JICUNQIZU|BUS0[4]      ; |JICUNQIZU|BUS0[4]      ; out              ;
+; |JICUNQIZU|BUS0[6]      ; |JICUNQIZU|BUS0[6]      ; out              ;
+; |JICUNQIZU|A[4]         ; |JICUNQIZU|A[4]         ; pin_out          ;
+; |JICUNQIZU|A[6]         ; |JICUNQIZU|A[6]         ; pin_out          ;
+; |JICUNQIZU|B[4]         ; |JICUNQIZU|B[4]         ; pin_out          ;
+; |JICUNQIZU|B[6]         ; |JICUNQIZU|B[6]         ; pin_out          ;
++-------------------------+-------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Jan 03 21:01:17 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off jicunqizu -c jicunqizu
+Info: Using vector source file "C:/Users/lenovo/Desktop/project/CPU/jicunqizu/jicunqizu.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      30.49 %
+Info: Number of transitions in simulation is 369
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 209 megabytes
+    Info: Processing ended: Wed Jan 03 21:01:17 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

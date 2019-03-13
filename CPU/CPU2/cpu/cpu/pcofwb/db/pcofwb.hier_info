@@ -1,0 +1,43 @@
+|pcofwb
+clk => pc[7].CLK
+clk => pc[6].CLK
+clk => pc[5].CLK
+clk => pc[4].CLK
+clk => pc[3].CLK
+clk => pc[2].CLK
+clk => pc[1].CLK
+clk => pc[0].CLK
+in_pc => pc[7]~15.OUTPUTSELECT
+in_pc => pc[6]~14.OUTPUTSELECT
+in_pc => pc[5]~13.OUTPUTSELECT
+in_pc => pc[4]~12.OUTPUTSELECT
+in_pc => pc[3]~11.OUTPUTSELECT
+in_pc => pc[2]~10.OUTPUTSELECT
+in_pc => pc[1]~9.OUTPUTSELECT
+in_pc => pc[0]~8.OUTPUTSELECT
+in_pc => pc[7]~1.OUTPUTSELECT
+in_pc => pc[6]~2.OUTPUTSELECT
+in_pc => pc[5]~3.OUTPUTSELECT
+in_pc => pc[4]~4.OUTPUTSELECT
+in_pc => pc[3]~5.OUTPUTSELECT
+in_pc => pc[2]~6.OUTPUTSELECT
+in_pc => pc[1]~7.OUTPUTSELECT
+in_pc => pc[0]~0.OUTPUTSELECT
+bus1[0] => pc[0]~0.DATAB
+bus1[1] => pc[1]~7.DATAB
+bus1[2] => pc[2]~6.DATAB
+bus1[3] => pc[3]~5.DATAB
+bus1[4] => pc[4]~4.DATAB
+bus1[5] => pc[5]~3.DATAB
+bus1[6] => pc[6]~2.DATAB
+bus1[7] => pc[7]~1.DATAB
+pc_out[0] <= pc[0].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[1] <= pc[1].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[2] <= pc[2].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[3] <= pc[3].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[4] <= pc[4].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[5] <= pc[5].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[6] <= pc[6].DB_MAX_OUTPUT_PORT_TYPE
+pc_out[7] <= pc[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

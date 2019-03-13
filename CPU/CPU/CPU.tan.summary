@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.188 ns
+From           : CPU_ALU_yw:inst9|ALU_out[5]
+To             : xuanzeqi_data_out[5]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 88.84 MHz ( period = 11.256 ns )
+From           : CPU_ALU_yw:inst9|ALU_out[4]
+To             : CPU_RAM:inst7|r[8][4]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : CPU_jicunqi:inst6|data_out[4]
+To             : CPU_ALU:inst8|ALU_out[4]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 140
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 140
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="cpuofwbzuishuai">
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|CPU_JSQ:inst8|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_3rh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|LPM_RAM_IO:inst7|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_c591.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|aluofwb:inst3|lpm_add_sub:Add2" CBX_FILE_NAME="add_sub_lnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|aluofwb:inst3|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_knh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|aluofwb:inst3|lpm_add_sub:Add3" CBX_FILE_NAME="add_sub_lnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpuofwbzuishuai|pcofwb:inst1|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_8rh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

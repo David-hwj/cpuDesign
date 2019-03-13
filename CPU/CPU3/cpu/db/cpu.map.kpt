@@ -1,0 +1,106 @@
+<kpt_db name="cpu.map" kpt_version="1.1">
+  <key_points_set type="reference" hier_sep="/">
+    <key_point id="1" type="register">
+      <name>inst/rb[5]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="2" type="register">
+      <name>inst/rc[6]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="3" type="register">
+      <name>inst/rb[1]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA1</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="4" type="register">
+      <name>inst/rc[4]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="5" type="register">
+      <name>inst/rc[0]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="6" type="register">
+      <name>inst/rb[7]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="7" type="register">
+      <name>inst/rb[3]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="8" type="register">
+      <name>inst/rb[4]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="9" type="register">
+      <name>inst/rb[0]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA1</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="10" type="register">
+      <name>inst/rc[3]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="11" type="register">
+      <name>inst/rb[6]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="12" type="register">
+      <name>inst/rc[7]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="13" type="register">
+      <name>inst/rc[1]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="14" type="register">
+      <name>inst/rc[5]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="15" type="register">
+      <name>inst/rb[2]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">SA0</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="16" type="register">
+      <name>inst/rc[2]</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+  </key_points_set>
+  <key_points_set type="transition" hier_sep="|">
+  </key_points_set>
+  <key_points_set type="transformed" hier_sep="|">
+  </key_points_set>
+  <transformations_set hier_sep="|">
+  </transformations_set>
+</kpt_db>

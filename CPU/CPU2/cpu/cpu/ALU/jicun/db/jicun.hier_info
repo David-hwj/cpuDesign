@@ -1,0 +1,59 @@
+|jicun
+Q0 <= dchufa:inst.Q
+Load => dchufa:inst.EN
+Load => dchufa:inst3.EN
+Load => dchufa:inst4.EN
+Load => dchufa:inst5.EN
+D0 => dchufa:inst.D
+clock => dchufa:inst.C
+clock => dchufa:inst3.C
+clock => dchufa:inst4.C
+clock => dchufa:inst5.C
+clear => dchufa:inst.CLRN
+clear => dchufa:inst3.CLRN
+clear => dchufa:inst4.CLRN
+clear => dchufa:inst5.CLRN
+Q1 <= dchufa:inst3.Q
+D1 => dchufa:inst3.D
+Q2 <= dchufa:inst4.Q
+D2 => dchufa:inst4.D
+Q3 <= dchufa:inst5.Q
+D3 => dchufa:inst5.D
+
+
+|jicun|dchufa:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+C => inst.CLK
+EN => inst4.IN0
+EN => inst5.IN0
+D => inst4.IN1
+
+
+|jicun|dchufa:inst3
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+C => inst.CLK
+EN => inst4.IN0
+EN => inst5.IN0
+D => inst4.IN1
+
+
+|jicun|dchufa:inst4
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+C => inst.CLK
+EN => inst4.IN0
+EN => inst5.IN0
+D => inst4.IN1
+
+
+|jicun|dchufa:inst5
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+C => inst.CLK
+EN => inst4.IN0
+EN => inst5.IN0
+D => inst4.IN1
+
+

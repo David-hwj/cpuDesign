@@ -1,0 +1,9 @@
+|dchufa
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+C => inst.CLK
+EN => inst4.IN0
+EN => inst5.IN0
+D => inst4.IN1
+
+

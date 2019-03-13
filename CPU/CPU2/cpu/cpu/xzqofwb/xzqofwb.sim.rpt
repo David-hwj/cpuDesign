@@ -1,0 +1,285 @@
+Simulator report for xzqofwb
+Sun Dec 31 22:40:53 2017
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 100 nodes    ;
+; Simulation Coverage         ;      58.70 % ;
+; Total Number of Transitions ; 17301        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone      ;
+; Device                      ; EP1C6Q240C8  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      58.70 % ;
+; Total nodes checked                                 ; 100          ;
+; Total output ports checked                          ; 92           ;
+; Total output ports with complete 1/0-value coverage ; 54           ;
+; Total output ports with no 1/0-value coverage       ; 32           ;
+; Total output ports with no 1-value coverage         ; 35           ;
+; Total output ports with no 0-value coverage         ; 35           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                        ;
++----------------------+--------------------------+------------------+
+; Node Name            ; Output Port Name         ; Output Port Type ;
++----------------------+--------------------------+------------------+
+; |xzqofwb|Equal0~0    ; |xzqofwb|Equal0~0        ; combout          ;
+; |xzqofwb|Equal0~1    ; |xzqofwb|Equal0~1        ; combout          ;
+; |xzqofwb|Equal0~2    ; |xzqofwb|Equal0~2        ; combout          ;
+; |xzqofwb|Equal0~3    ; |xzqofwb|Equal0~3        ; combout          ;
+; |xzqofwb|Equal0~4    ; |xzqofwb|Equal0~4        ; combout          ;
+; |xzqofwb|Equal0~5    ; |xzqofwb|Equal0~5        ; combout          ;
+; |xzqofwb|Equal0~6    ; |xzqofwb|Equal0~6        ; combout          ;
+; |xzqofwb|Equal0~7    ; |xzqofwb|Equal0~7        ; combout          ;
+; |xzqofwb|Equal0~8    ; |xzqofwb|Equal0~8        ; combout          ;
+; |xzqofwb|x_out[1]~21 ; |xzqofwb|x_out[1]~21     ; combout          ;
+; |xzqofwb|x_out[2]~23 ; |xzqofwb|x_out[2]~23     ; combout          ;
+; |xzqofwb|x_out[4]~27 ; |xzqofwb|x_out[4]~27     ; combout          ;
+; |xzqofwb|x_out[5]~29 ; |xzqofwb|x_out[5]~29     ; combout          ;
+; |xzqofwb|x_out[2]    ; |xzqofwb|x_out[2]        ; padio            ;
+; |xzqofwb|madd[0]     ; |xzqofwb|madd[0]~corein  ; combout          ;
+; |xzqofwb|madd[6]     ; |xzqofwb|madd[6]~corein  ; combout          ;
+; |xzqofwb|madd[23]    ; |xzqofwb|madd[23]~corein ; combout          ;
+; |xzqofwb|madd[13]    ; |xzqofwb|madd[13]~corein ; combout          ;
+; |xzqofwb|madd[3]     ; |xzqofwb|madd[3]~corein  ; combout          ;
+; |xzqofwb|madd[5]     ; |xzqofwb|madd[5]~corein  ; combout          ;
+; |xzqofwb|madd[18]    ; |xzqofwb|madd[18]~corein ; combout          ;
+; |xzqofwb|madd[24]    ; |xzqofwb|madd[24]~corein ; combout          ;
+; |xzqofwb|madd[12]    ; |xzqofwb|madd[12]~corein ; combout          ;
+; |xzqofwb|madd[26]    ; |xzqofwb|madd[26]~corein ; combout          ;
+; |xzqofwb|madd[25]    ; |xzqofwb|madd[25]~corein ; combout          ;
+; |xzqofwb|madd[8]     ; |xzqofwb|madd[8]~corein  ; combout          ;
+; |xzqofwb|madd[4]     ; |xzqofwb|madd[4]~corein  ; combout          ;
+; |xzqofwb|madd[30]    ; |xzqofwb|madd[30]~corein ; combout          ;
+; |xzqofwb|madd[29]    ; |xzqofwb|madd[29]~corein ; combout          ;
+; |xzqofwb|madd[9]     ; |xzqofwb|madd[9]~corein  ; combout          ;
+; |xzqofwb|madd[17]    ; |xzqofwb|madd[17]~corein ; combout          ;
+; |xzqofwb|madd[14]    ; |xzqofwb|madd[14]~corein ; combout          ;
+; |xzqofwb|madd[27]    ; |xzqofwb|madd[27]~corein ; combout          ;
+; |xzqofwb|madd[7]     ; |xzqofwb|madd[7]~corein  ; combout          ;
+; |xzqofwb|madd[28]    ; |xzqofwb|madd[28]~corein ; combout          ;
+; |xzqofwb|madd[10]    ; |xzqofwb|madd[10]~corein ; combout          ;
+; |xzqofwb|madd[19]    ; |xzqofwb|madd[19]~corein ; combout          ;
+; |xzqofwb|madd[22]    ; |xzqofwb|madd[22]~corein ; combout          ;
+; |xzqofwb|madd[21]    ; |xzqofwb|madd[21]~corein ; combout          ;
+; |xzqofwb|madd[2]     ; |xzqofwb|madd[2]~corein  ; combout          ;
+; |xzqofwb|madd[15]    ; |xzqofwb|madd[15]~corein ; combout          ;
+; |xzqofwb|madd[31]    ; |xzqofwb|madd[31]~corein ; combout          ;
+; |xzqofwb|madd[16]    ; |xzqofwb|madd[16]~corein ; combout          ;
+; |xzqofwb|madd[11]    ; |xzqofwb|madd[11]~corein ; combout          ;
+; |xzqofwb|madd[20]    ; |xzqofwb|madd[20]~corein ; combout          ;
+; |xzqofwb|madd[1]     ; |xzqofwb|madd[1]~corein  ; combout          ;
+; |xzqofwb|in0[0]      ; |xzqofwb|in0[0]~corein   ; combout          ;
+; |xzqofwb|in0[1]      ; |xzqofwb|in0[1]~corein   ; combout          ;
+; |xzqofwb|in0[2]      ; |xzqofwb|in0[2]~corein   ; combout          ;
+; |xzqofwb|in0[3]      ; |xzqofwb|in0[3]~corein   ; combout          ;
+; |xzqofwb|in0[4]      ; |xzqofwb|in0[4]~corein   ; combout          ;
+; |xzqofwb|in0[5]      ; |xzqofwb|in0[5]~corein   ; combout          ;
+; |xzqofwb|in0[6]      ; |xzqofwb|in0[6]~corein   ; combout          ;
+; |xzqofwb|in0[7]      ; |xzqofwb|in0[7]~corein   ; combout          ;
++----------------------+--------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------+
+; Missing 1-Value Coverage                                         ;
++----------------------+------------------------+------------------+
+; Node Name            ; Output Port Name       ; Output Port Type ;
++----------------------+------------------------+------------------+
+; |xzqofwb|Equal0~9    ; |xzqofwb|Equal0~9      ; combout          ;
+; |xzqofwb|Equal0~10   ; |xzqofwb|Equal0~10     ; combout          ;
+; |xzqofwb|x_out[0]~18 ; |xzqofwb|x_out[0]~18   ; combout          ;
+; |xzqofwb|x_out[0]~19 ; |xzqofwb|x_out[0]~19   ; combout          ;
+; |xzqofwb|x_out[7]~17 ; |xzqofwb|x_out[7]~17   ; combout          ;
+; |xzqofwb|x_out[1]~20 ; |xzqofwb|x_out[1]~20   ; combout          ;
+; |xzqofwb|x_out[2]~22 ; |xzqofwb|x_out[2]~22   ; combout          ;
+; |xzqofwb|x_out[3]~24 ; |xzqofwb|x_out[3]~24   ; combout          ;
+; |xzqofwb|x_out[3]~25 ; |xzqofwb|x_out[3]~25   ; combout          ;
+; |xzqofwb|x_out[4]~26 ; |xzqofwb|x_out[4]~26   ; combout          ;
+; |xzqofwb|x_out[5]~28 ; |xzqofwb|x_out[5]~28   ; combout          ;
+; |xzqofwb|x_out[6]~30 ; |xzqofwb|x_out[6]~30   ; combout          ;
+; |xzqofwb|x_out[6]~31 ; |xzqofwb|x_out[6]~31   ; combout          ;
+; |xzqofwb|x_out[7]~32 ; |xzqofwb|x_out[7]~32   ; combout          ;
+; |xzqofwb|x_out[7]~33 ; |xzqofwb|x_out[7]~33   ; combout          ;
+; |xzqofwb|x_out[0]    ; |xzqofwb|x_out[0]      ; padio            ;
+; |xzqofwb|x_out[3]    ; |xzqofwb|x_out[3]      ; padio            ;
+; |xzqofwb|x_out[6]    ; |xzqofwb|x_out[6]      ; padio            ;
+; |xzqofwb|x_out[7]    ; |xzqofwb|x_out[7]      ; padio            ;
+; |xzqofwb|in1[0]      ; |xzqofwb|in1[0]~corein ; combout          ;
+; |xzqofwb|in2[0]      ; |xzqofwb|in2[0]~corein ; combout          ;
+; |xzqofwb|in1[1]      ; |xzqofwb|in1[1]~corein ; combout          ;
+; |xzqofwb|in2[1]      ; |xzqofwb|in2[1]~corein ; combout          ;
+; |xzqofwb|in1[2]      ; |xzqofwb|in1[2]~corein ; combout          ;
+; |xzqofwb|in2[2]      ; |xzqofwb|in2[2]~corein ; combout          ;
+; |xzqofwb|in1[3]      ; |xzqofwb|in1[3]~corein ; combout          ;
+; |xzqofwb|in2[3]      ; |xzqofwb|in2[3]~corein ; combout          ;
+; |xzqofwb|in1[4]      ; |xzqofwb|in1[4]~corein ; combout          ;
+; |xzqofwb|in2[4]      ; |xzqofwb|in2[4]~corein ; combout          ;
+; |xzqofwb|in1[5]      ; |xzqofwb|in1[5]~corein ; combout          ;
+; |xzqofwb|in2[5]      ; |xzqofwb|in2[5]~corein ; combout          ;
+; |xzqofwb|in1[6]      ; |xzqofwb|in1[6]~corein ; combout          ;
+; |xzqofwb|in2[6]      ; |xzqofwb|in2[6]~corein ; combout          ;
+; |xzqofwb|in1[7]      ; |xzqofwb|in1[7]~corein ; combout          ;
+; |xzqofwb|in2[7]      ; |xzqofwb|in2[7]~corein ; combout          ;
++----------------------+------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------+
+; Missing 0-Value Coverage                                         ;
++----------------------+------------------------+------------------+
+; Node Name            ; Output Port Name       ; Output Port Type ;
++----------------------+------------------------+------------------+
+; |xzqofwb|x_out[0]~18 ; |xzqofwb|x_out[0]~18   ; combout          ;
+; |xzqofwb|x_out[0]~19 ; |xzqofwb|x_out[0]~19   ; combout          ;
+; |xzqofwb|x_out[1]~20 ; |xzqofwb|x_out[1]~20   ; combout          ;
+; |xzqofwb|x_out[2]~22 ; |xzqofwb|x_out[2]~22   ; combout          ;
+; |xzqofwb|x_out[3]~24 ; |xzqofwb|x_out[3]~24   ; combout          ;
+; |xzqofwb|x_out[3]~25 ; |xzqofwb|x_out[3]~25   ; combout          ;
+; |xzqofwb|x_out[4]~26 ; |xzqofwb|x_out[4]~26   ; combout          ;
+; |xzqofwb|x_out[5]~28 ; |xzqofwb|x_out[5]~28   ; combout          ;
+; |xzqofwb|x_out[6]~30 ; |xzqofwb|x_out[6]~30   ; combout          ;
+; |xzqofwb|x_out[6]~31 ; |xzqofwb|x_out[6]~31   ; combout          ;
+; |xzqofwb|x_out[7]~32 ; |xzqofwb|x_out[7]~32   ; combout          ;
+; |xzqofwb|x_out[7]~33 ; |xzqofwb|x_out[7]~33   ; combout          ;
+; |xzqofwb|x_out[0]    ; |xzqofwb|x_out[0]      ; padio            ;
+; |xzqofwb|x_out[1]    ; |xzqofwb|x_out[1]      ; padio            ;
+; |xzqofwb|x_out[3]    ; |xzqofwb|x_out[3]      ; padio            ;
+; |xzqofwb|x_out[4]    ; |xzqofwb|x_out[4]      ; padio            ;
+; |xzqofwb|x_out[5]    ; |xzqofwb|x_out[5]      ; padio            ;
+; |xzqofwb|x_out[6]    ; |xzqofwb|x_out[6]      ; padio            ;
+; |xzqofwb|x_out[7]    ; |xzqofwb|x_out[7]      ; padio            ;
+; |xzqofwb|in1[0]      ; |xzqofwb|in1[0]~corein ; combout          ;
+; |xzqofwb|in2[0]      ; |xzqofwb|in2[0]~corein ; combout          ;
+; |xzqofwb|in1[1]      ; |xzqofwb|in1[1]~corein ; combout          ;
+; |xzqofwb|in2[1]      ; |xzqofwb|in2[1]~corein ; combout          ;
+; |xzqofwb|in1[2]      ; |xzqofwb|in1[2]~corein ; combout          ;
+; |xzqofwb|in2[2]      ; |xzqofwb|in2[2]~corein ; combout          ;
+; |xzqofwb|in1[3]      ; |xzqofwb|in1[3]~corein ; combout          ;
+; |xzqofwb|in2[3]      ; |xzqofwb|in2[3]~corein ; combout          ;
+; |xzqofwb|in1[4]      ; |xzqofwb|in1[4]~corein ; combout          ;
+; |xzqofwb|in2[4]      ; |xzqofwb|in2[4]~corein ; combout          ;
+; |xzqofwb|in1[5]      ; |xzqofwb|in1[5]~corein ; combout          ;
+; |xzqofwb|in2[5]      ; |xzqofwb|in2[5]~corein ; combout          ;
+; |xzqofwb|in1[6]      ; |xzqofwb|in1[6]~corein ; combout          ;
+; |xzqofwb|in2[6]      ; |xzqofwb|in2[6]~corein ; combout          ;
+; |xzqofwb|in1[7]      ; |xzqofwb|in1[7]~corein ; combout          ;
+; |xzqofwb|in2[7]      ; |xzqofwb|in2[7]~corein ; combout          ;
++----------------------+------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun Dec 31 22:40:53 2017
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off xzqofwb -c xzqofwb
+Info: Using vector source file "C:/Users/Íõ²©/Desktop/cpu/xzqofwb/xzqofwb.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      58.70 %
+Info: Number of transitions in simulation is 17301
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 178 megabytes
+    Info: Processing ended: Sun Dec 31 22:40:54 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+

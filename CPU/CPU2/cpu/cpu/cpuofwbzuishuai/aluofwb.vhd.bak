@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity aluofwb is
+	port(m:in std_logic;
+		 s:in std_logic_vector(3 downto 0);
+		 alu_a,alu_b:in std_logic_vector(7 downto 0);
+		 c,z,alu_out:out std_logic_vector(7 downto 0));
+end aluofwb;
+architecture description of aluofwb is
+begin
+	process(m,alu_a,alu_b)
+	begin
+		if(m='1' and s="1111" )then
+			alu_out<=alu_b;
+		elsif(m='1' and s="1001") then
+			alu_out<=alu_a+alu_b;
+		elsif(m='1' and s="0110" ) then 
+			alu_out<=alu_a-alu_b;
+		elsif(m='1' and s="1110" )then
+			alu_out<=alu_a and alu_b;
+		elsif(m='1' and s="0101") then
+			alu_out<=not alu_a;
+		else
+			alu_out<=alu_a;
+		end if;
+	end process;
+	end;

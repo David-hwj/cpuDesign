@@ -1,0 +1,27 @@
+|irofwb
+bus3[0] => outir[0]$latch.DATAIN
+bus3[1] => outir[1]$latch.DATAIN
+bus3[2] => outir[2]$latch.DATAIN
+bus3[3] => outir[3]$latch.DATAIN
+bus3[4] => outir[4]$latch.DATAIN
+bus3[5] => outir[5]$latch.DATAIN
+bus3[6] => outir[6]$latch.DATAIN
+bus3[7] => outir[7]$latch.DATAIN
+ldir => outir[7]$latch.LATCH_ENABLE
+ldir => outir[6]$latch.LATCH_ENABLE
+ldir => outir[5]$latch.LATCH_ENABLE
+ldir => outir[4]$latch.LATCH_ENABLE
+ldir => outir[3]$latch.LATCH_ENABLE
+ldir => outir[2]$latch.LATCH_ENABLE
+ldir => outir[1]$latch.LATCH_ENABLE
+ldir => outir[0]$latch.LATCH_ENABLE
+outir[0] <= outir[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[1] <= outir[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[2] <= outir[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[3] <= outir[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[4] <= outir[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[5] <= outir[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[6] <= outir[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+outir[7] <= outir[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

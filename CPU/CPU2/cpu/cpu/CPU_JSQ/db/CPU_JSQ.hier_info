@@ -1,0 +1,16 @@
+|CPU_JSQ
+clk => iq[2].CLK
+clk => iq[1].CLK
+clk => iq[0].CLK
+clr => iq~8.OUTPUTSELECT
+clr => iq~7.OUTPUTSELECT
+clr => iq~6.OUTPUTSELECT
+cin => iq~2.OUTPUTSELECT
+cin => iq~1.OUTPUTSELECT
+cin => iq~0.OUTPUTSELECT
+cin => process_0~0.IN0
+q[0] <= iq[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= iq[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= iq[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
